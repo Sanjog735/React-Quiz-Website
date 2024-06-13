@@ -3,7 +3,7 @@ import Options from "./Options";
 
 const Question = ({ question, handleAnswer, answer }) => {
   return (
-    <div className=" px-[18%] sm:px-0">
+    <div>
       <h4 className="text-3xl md:text-4xl font-semibold mb-10">
         {question.question}
       </h4>
